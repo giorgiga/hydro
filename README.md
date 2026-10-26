@@ -1,6 +1,6 @@
-# Hydro
+# <i>H</i>ydro
 
-> Ultra-pure, lag-free prompt with async Git status. Designed for [Fish](https://fishshell.com).
+> Ultra-pure, lag-free prompt with async Git status. Designed only for [Fish](https://fishshell.com).
 
 [![](https://user-images.githubusercontent.com/56996/103166797-f807ee00-4868-11eb-9818-c661584274c8.gif)](#hydro)
 
@@ -90,6 +90,7 @@ Modify variables using `set --universal` from the command line or `set --global`
 
 | Variable                  | Type   | Description                     | Default |
 | ------------------------- | ------ | ------------------------------- | ------- |
+| `hydro_symbol_start`      | string | Prompt start symbol.            |         |
 | `hydro_symbol_prompt`     | string | Prompt symbol.                  | `❱`     |
 | `hydro_symbol_git_dirty`  | string | Dirty repository symbol.        | `•`     |
 | `hydro_symbol_git_ahead`  | string | Ahead of your upstream symbol.  | `↑`     |
@@ -103,6 +104,7 @@ Modify variables using `set --universal` from the command line or `set --global`
 | ---------------------- | ----- | ------------------------------ | -------------------- |
 | `hydro_color_pwd`      | color | Color of the pwd segment.      | `$fish_color_normal` |
 | `hydro_color_git`      | color | Color of the git segment.      | `$fish_color_normal` |
+| `hydro_color_start`    | color | Color of the start symbol.     | `$fish_color_normal` |
 | `hydro_color_error`    | color | Color of the error segment.    | `$fish_color_error`  |
 | `hydro_color_prompt`   | color | Color of the prompt symbol.    | `$fish_color_normal` |
 | `hydro_color_duration` | color | Color of the duration section. | `$fish_color_normal` |
